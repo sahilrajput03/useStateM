@@ -1,0 +1,20 @@
+{
+  "name": "usestatem",
+  "version": "0.0.23",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm version patch && npm publish",
+    "start1": "npm version minor && npm publish",
+    "start2": "npm version major && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.9.53",
+    "immer": "^7.0.14",
+    "react": "^17.0.0"
+  }
+}
