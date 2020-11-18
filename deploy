@@ -3,5 +3,6 @@ c
 echo COMMIT DONE
 npm version patch
 echo VERSION PATCH DONE
-cpn
-echo COMMIT, PUSH, NOW!!
+c
+p
+echo COMMIT, PUSH DONE!!
