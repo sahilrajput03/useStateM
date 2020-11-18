@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "c || npm version patch && cpn",
-    "start1": "npm version minor && npm publish",
-    "start2": "npm version major && npm publish",
+    "start": "c \n npm version patch",
+    "start1": "npm version minor",
+    "start2": "npm version major",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
