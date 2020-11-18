@@ -1,4 +1,4 @@
-name: Publish199
+name: Publish299
 
 on:
   push:
@@ -14,6 +14,6 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: npm install
-      - run: npm publish --access public
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
